@@ -30,9 +30,14 @@
     text-decoration: none;
     color: #fff;
 }
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
 .details{
-    margin-top: 15%;
-    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
 
 }
 .banner-left h1 {
@@ -44,19 +49,35 @@
     color: orange;
 }
 .banner-left p{
-    color: #555;
+    color: whitesmoke;
     line-height: 15px;
 }
 .banner-left button{
     padding: 10px 18px;
     text-decoration: none;
     font-weight: 500;
-    background-color: black;
-    color: tomato;
+    background-color: tomato;
+    color: black;
     margin: 30px 0px;
     border-radius: 7px;
-    width: 8%;
+    
 }
+.banner-left{
+    width: 50%;
 
+}
+.banner-right{
+    width: 50%;
+    display: flex;
+    justify-content: right;
 
+}
+.banner-right img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+body{
+    background-color: teal;
 }
